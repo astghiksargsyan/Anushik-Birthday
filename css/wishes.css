@@ -1,0 +1,29 @@
+.containerRight {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    border: 3px dashed #722977;
+    border-radius: 4px 85px;
+    padding: 2%;
+    margin: 2%;
+}
+
+.image-style {
+    width: 200px;
+    height: 100%;
+}
+.wishes{
+    padding: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+.right{
+    text-align: left;
+}

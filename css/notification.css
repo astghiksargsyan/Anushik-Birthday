@@ -1,0 +1,23 @@
+.myh1{
+    color: #ab58b1;
+    font-size: 60px;
+    padding-bottom: 43px;
+}
+.autor{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.red{
+    color: red;
+}
+.border{
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}

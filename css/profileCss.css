@@ -1,0 +1,35 @@
+/*left part*/
+.left-background{
+    background-color: #ef9af5;
+}
+.profile-image-div{
+    border-radius: 50%;
+    margin: 17%;
+    align-items: center;
+}
+.profile-image{
+    border-radius: 50px;
+    border: 1px solid #585858;
+}
+.costume-navbar{
+    background-color: #722977;
+}
+.color{
+    color: #c5c5c5;
+}
+.button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+.margin{
+    margin-right: 19px;
+    display: block;
+    background-color: #ef9af5;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 14px;
+}
+.zero{
+    padding: 0;
+}

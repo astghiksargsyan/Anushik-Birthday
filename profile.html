@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Happy Birthday</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden_dev.js"></script>
+    <script type="text/javascript" src="js/functions_dev.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/profileCss.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4 left-background">
+        <div class="profile-image-div">
+            <img class="profile-image" src="img/anushik.jpg"  alt="profile image">
+            <h4> Anushik Hakobyan </h4>
+            <p> Director </p>
+        </div>
+    </div>
+    <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8">
+        <div class="row">
+            <nav class="navbar costume-navbar">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav ">
+                            <li><a href="index.html" class="color">Home</a></li>
+                            <li><a href="profile.html" class="color"> Profie </a></li>
+                            <li><a href="mem.html" class="color">Memories </a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="wishes.html" class="color"><span class="glyphicon glyphicon-envelope"></span></a></li>
+                            <li><a href="notification.html"  data-toggle="modal" data-target="#myModal2" class="color"><span class="glyphicon glyphicon-bell"></span></a></li>
+                            <li><a href="#"  data-toggle="modal" data-target="#myModal"  class="color"><span class="glyphicon glyphicon-log-in"></span> Log Out </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class = "container">
+    <div class="row">
+
+        <div id="code" class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+            <span class="comments">/**</span><br />
+            <span class="space"/><span class="comments">* Today, the 24th day of November, is your birthday.</span><br />
+            <span class="space"/><span class="comments">* So we created a page to celebrate this extraordinary day.</span><br />
+            <span class="space"/><span class="comments">*/</span><br />
+            Girl g = <span class="keyword">new</span> Girl(<span class="string">"Anushik Hakobyan"</span>);<br />
+            <span class="comments">// Nov 24th, when the bell rang, your age increased </span><br />
+            Date currentTime = <span class="keyword">new</span> Date(); <br />
+            SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
+            String dateString = formatter.format(currentTime);<br />
+            if( dateString.equals(<span class="string">"1996-11-24 20:00:00"</span>) ){</br>
+            u.age ++;</br>
+            }</br>
+            <span class="comments">// Our blessing will be with you simultaneously.</span><br />
+            <span class="keyword">new</span> Thread (){<br />
+            @Override </br>
+            <span class="comments">// Forever and ever. We wish</span><br />
+            while(true){</br>
+            <span class="comments">// luckiness,</span><br />
+            u.fortune ++;</br>
+            <span class="comments">// happiness,</span><br />
+            u.happiness ++;</br>
+            <span class="comments">// and everything you wish can be achieved.</span><br />
+            }.start()</br>
+            <span class="comments">// The last thing we wanna say, boring and ordinary, is:</span><br />
+            console.log(<span class="string">"Dear Anushik, Happy Birthday !"</span>);
+        </div>
+        <div id="loveHeart" class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+            <canvas id="garden"></canvas>
+            <div id="words">
+                <div id="messages">
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    You've been in the world for
+                    <div id="elapseClock"></div>
+                </div>
+                <div id="loveu">
+                    May you have a year full of happiness.<br/>
+
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 class="modal-title">Զգուշացում !!!! </h1>
+                    </div>
+                    <div class="modal-body">
+                        <p>Չփորձես հանկարծ EDOSA - ից Log out էղնիիս </p>
+                        <img src="img/smile.png" style="width: 50px">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="copyright" class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+            &copy; Made by <b>EDOSA </b>team members. <br>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span><span> &#10027; </span>
+            <br>
+
+            Ani Melkonyan, Amalia Gharakeshishyan, Alina Kirakosyan, Astghik Sargsyan, Gohar Hovhannisyan
+        </div>
+
+        <script type="text/javascript">
+            var offsetX = $("#loveHeart").width() / 2;
+            var offsetY = $("#loveHeart").height() / 2 - 55;
+            var together = new Date();
+            together.setFullYear(1996,11, 24);
+            together.setHours(8);
+            together.setMinutes(0);
+            together.setSeconds(0);
+            together.setMilliseconds(0);
+
+            if (!document.createElement('canvas').getContext) {
+                var msg = document.createElement("div");
+                msg.id = "errorMsg";
+                msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+                document.body.appendChild(msg);
+                $("#code").css("display", "none")
+                $("#copyright").css("position", "absolute");
+                $("#copyright").css("bottom", "10px");
+                document.execCommand("stop");
+            } else {
+                setTimeout(function () {
+                    startHeartAnimation();
+                }, 5000);
+
+                timeElapse(together);
+                setInterval(function () {
+                    timeElapse(together);
+                }, 500);
+
+                adjustCodePosition();
+                $("#code").typewriter();
+            }
+
+
+        </script>
+
+    </div>
+</div>
+
+
+</body>
+</html>
